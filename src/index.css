@@ -1,0 +1,588 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: SF Pro Display, sans-serif;
+}
+/* @font-face {
+  font-family: "San Francisco 400";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+@font-face {
+  font-family: "San Francisco 500";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+@font-face {
+  font-family: "San Francisco 600";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+} */
+#navbarContainer {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 44px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 12px;
+  background-color: rgba(251, 251, 253, 0.8);
+  position: fixed;
+  backdrop-filter: blur(10px);
+}
+#navbar {
+  width: 996px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navMenuText {
+  padding: 0px 8px;
+  letter-spacing: -0.01em;
+}
+
+.icon {
+  padding-top: 4px;
+  width: 30px;
+  text-align: center;
+}
+
+#bannerContainer {
+  width: 100vw;
+  height: 45px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 45px;
+}
+
+#bannerShopText {
+  color: rgb(0, 102, 204);
+}
+
+/* main */
+
+/* Second Banner */
+#sectionBanner {
+  width: 100vw;
+  height: 580px;
+  display: absolute;
+  font-weight: 400;
+  margin-top: 12px;
+}
+
+#sectionBannerContainer {
+  width: 100vw;
+  /* padding-top: 80px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: rgb(29, 29, 31);
+  position: absolute;
+}
+#sectionBannerContainerTitle {
+}
+
+#sectionBannerContainerTitleName {
+  color: rgb(29, 29, 31);
+  height: 60px;
+  font-size: 56px;
+  /* padding-left: 475px;
+  padding-right: 475px; */
+}
+#sectionBannerContainerTitleText {
+  height: 31px;
+  margin-top: 6px;
+  font-size: 26px;
+  color: rgb(29, 29, 31);
+}
+
+/* first section */
+#sectionFirst {
+  width: 100vw;
+  height: 580px;
+  display: absolute;
+  font-weight: 400;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://www.apple.com/v/home/bc/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large_2x.jpg);
+}
+#sectionFirstContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 47px;
+}
+#sectionFirstContainerTitle {
+}
+#sectionFirstContainerTitleName {
+  height: 60px;
+  font-size: 56px;
+  color: rgb(245, 245, 247);
+}
+#sectionFirstContainerTitleText {
+  height: 31px;
+  margin-top: 6px;
+  font-size: 26px;
+  color: rgb(245, 245, 247);
+}
+#LinkContainer {
+  height: 31px;
+  font-size: 21px;
+  margin-top: 11px;
+  color: blue;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+#LinkBuy {
+  padding-left: 28px;
+}
+
+/* Second section */
+#sectionSecond {
+  width: 100vw;
+  height: 580px;
+  display: absolute;
+  font-weight: 400;
+  margin-top: 18px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://www.apple.com/v/home/bc/images/heroes/iphone-14/hero_iphone14_yellow__eun20sn4imi6_large_2x.jpg);
+}
+
+#sectionSecondContainer {
+  width: 100vw;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: rgb(29, 29, 31);
+}
+#sectionSecondContainerTitleName {
+  color: rgb(29, 29, 31);
+  height: 60px;
+  font-size: 56px;
+}
+#sectionSecondContainerTitleText {
+  height: 31px;
+  margin-top: 6px;
+  font-size: 26px;
+  color: rgb(29, 29, 31);
+}
+
+/* 3 section */
+#sectionContainerVideo {
+  width: 100vw;
+  height: 750px;
+  margin-top: 18px;
+
+  display: flex;
+
+  justify-content: center;
+}
+#videoContainer {
+  display: flex;
+  height: 80vh;
+  width: 100vw;
+}
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* video logo text */
+
+#sectionContainerVideo {
+}
+#videoTextContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  text-align: center;
+  align-items: space-between;
+  justify-content: center;
+  margin-top: 93px;
+}
+#videoLogoText {
+  position: absolute;
+
+  width: 474px;
+  height: 137px;
+
+  color: rgb(245, 245, 247);
+}
+
+#videoLogoContainer {
+  width: 474px;
+  height: 55px;
+  text-align: center;
+}
+#videoTitleLogoConstainer {
+  background-size: 214px 55px;
+  background-position: center;
+  background-image: url(https://www.apple.com/v/home/bc/images/logos/mls-messi/hero_logo_apple_tv_season_pass__igiz49b7ebee_large_2x.png);
+}
+
+#videoTitleLogoConstainerText {
+  width: 474px;
+  height: 55px;
+}
+
+#videoTitleText {
+  width: 474px;
+  height: 137px;
+  font-size: 19.89px;
+}
+
+#videoTextNews {
+}
+#videoText {
+}
+
+/* Fourth Section */
+
+#sectionFourth {
+  width: 100vw;
+  height: 1776px;
+  /* display: flex; */
+  display: absolute;
+  text-align: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+
+#sectionFourthContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sectionFourthBoxes {
+  /* width: 49vw; */
+  margin: 12px;
+  width: 694px;
+  height: 580px;
+  /* border: 1px solid blue; */
+}
+/* Fourth Section - Macbook */
+#sectionFourthMacbook {
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://www.apple.com/v/home/bc/images/promos/macbook-air-15/promo_macbook_air_15_midnight__3zojl1nanrme_large_2x.jpg);
+  display: absolute;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#sectionFourthHeadLine {
+  font-family: "San Francisco 600";
+  margin-top: 53px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.1;
+  color: rgb(29, 29, 31);
+}
+
+#sectionFourthSubLine {
+  font-family: "San Francisco 400";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 26.0001px;
+  color: rgb(29, 29, 31);
+}
+
+#sectionFourthLinkContainer {
+  font-size: 17px;
+  color: rgb(0, 102, 204);
+  padding-top: 11px;
+}
+#sectionFourthLinkBuy {
+  margin-left: 28px;
+}
+
+.sectionFourthContainers {
+  /* display: absolute;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center; */
+}
+/* Fourth Section - Vision Pro */
+#sectionFourthVisionPro {
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://www.apple.com/v/home/bc/images/promos/apple-vision-pro/promo_apple_vision_pro__f4v4zp0sum2y_large_2x.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#visionProContainers {
+  padding-bottom: 54px;
+}
+#VisionProhHeadLine {
+  font-size: 40px;
+  color: rgb(29, 29, 31);
+}
+#visionProSubHeadLine {
+  font-size: 21px;
+  color: rgb(29, 29, 31);
+}
+
+#visionProSubLine {
+  font-size: 17px;
+  color: rgb(110, 110, 115);
+}
+/* Fourth Section - watch */
+#sectionFourthWatch {
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://www.apple.com/v/home/bc/images/promos/apple-watch-series-8/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large_2x.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#watchContainers {
+  padding-top: 59px;
+}
+#watchHeadLine {
+  font-size: 40px;
+  color: rgb(245, 245, 247);
+}
+#watchSubHeadLine {
+  font-size: 17px;
+  color: red;
+  margin-top: -5px;
+}
+
+#watchSubLine {
+  padding-top: 11px;
+  font-size: 17px;
+  color: rgb(245, 245, 247);
+}
+/* Fourth Section - Trade In */
+#sectionFourthTradeIn {
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://www.apple.com/v/home/bc/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_large_2x.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: rgb(29, 29, 31);
+}
+
+#TradeInContainers {
+  padding-top: 59px;
+}
+#TradeInHeadLine {
+  font-size: 40px;
+}
+#TradeInSubHeadLine {
+  font-size: 17px;
+  margin-top: -5px;
+}
+
+#TradeInSubLine {
+  padding-top: 11px;
+  font-size: 17px;
+}
+
+/* Fourth Section - iPad Pro */
+#sectionFourthIpadPro {
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://www.apple.com/v/home/bc/images/promos/ipad-pro/promo_ipadpro_refresh__evi9utuixwuq_large_2x.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#IpadProContainers {
+  padding-top: 59px;
+}
+#IpadProHeadLine {
+  font-size: 40px;
+  color: rgb(245, 245, 247);
+}
+#IpadProSubHeadLine {
+  font-size: 17px;
+  margin-top: -5px;
+}
+
+#IpadProSubLine {
+  /* padding-top: 11px; */
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(245, 245, 247);
+  display: flex;
+  align-items: center;
+}
+
+/* Fourth Section - Card */
+#sectionFourthCard {
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://www.apple.com/v/home/bc/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_large_2x.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: rgb(29, 29, 31);
+}
+
+#CardContainers {
+  padding-top: 59px;
+}
+#CardHeadLine {
+  font-size: 40px;
+}
+#CardSubHeadLine {
+  font-size: 17px;
+  margin-top: -5px;
+}
+
+#CardSubLine {
+  padding-top: 11px;
+  margin-left: 206px;
+  margin-right: 206px;
+  font-size: 17px;
+}
+
+/* Footer */
+footer {
+  width: 100vw;
+  height: 890px;
+  background-color: rgb(245, 245, 247);
+  margin-top: 44px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+#footerContainer {
+  height: 890px;
+  width: 980px;
+  /* border: 1px solid rgb(235, 4, 205); */
+  display: flex;
+  flex-direction: column;
+  /* align-content: center; */
+}
+
+#footerTopContainer {
+  height: 317px;
+  width: 980px;
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  padding-top: 17px;
+  padding-bottom: 11px;
+}
+
+/* Footer Body */
+#footerBodyContainer {
+  height: 460px;
+  border-top: 1px solid rgb(210, 210, 215);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  font-family: SF Pro Display, sans-serif;
+}
+.footerBodyContainerBoxes {
+  /* width: 190px;
+  height: 437px;
+  border: 1px solid rgb(17, 201, 229); */
+}
+
+.footerBodyContainerBoxTop {
+  display: flex;
+  font-family: SF Pro Display, sans-serif;
+
+  font-weight: 400;
+  flex-direction: column;
+}
+.TopSpace {
+  padding-top: 20px;
+}
+
+.footerBodyHeadLines {
+  color: rgb(29, 29, 31);
+  font-size: 12px;
+  /* font-family: "San Francisco 600"; */
+  font-family: SF Pro Display, sans-serif;
+
+  font-weight: 600;
+  padding-bottom: 9.6px;
+}
+.footerBodySubLines {
+  padding-bottom: 9.6px;
+  color: rgb(66, 66, 69);
+  font-size: 12px;
+  line-height: 16.0001px;
+  /* font-family: "San Francisco 400"; */
+  font-family: SF Pro Display, sans-serif;
+
+  font-weight: 400;
+}
+
+/* Footer Bottom */
+#footerBottomContainer {
+  height: 113px;
+  width: 980px;
+  /* border: 1px solid yellow; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 34px;
+  padding-bottom: 21px;
+}
+#bottomLine {
+  margin-bottom: 7px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgb(210, 210, 215);
+}
+.borderRight {
+  border-right: 1px solid rgb(134, 134, 139);
+  border-right: 1px solid rgb(134, 134, 139);
+}
+
+#footerBottomContainerBox {
+}
+.footerTopContainerTexts {
+  color: rgb(110, 110, 115);
+  font-size: 12px;
+  font-family: SF Pro Display, sans-serif;
+
+  font-weight: 400;
+  line-height: 16.0004px;
+  padding-bottom: 9.6px;
+  letter-spacing: -0.01em;
+  /* font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+    "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
+}
+
+.footerBottomContainerTexts {
+  color: rgb(110, 110, 115);
+  font-size: 12px;
+  font-family: SF Pro Display, sans-serif;
+  font-weight: 400;
+  line-height: 16.0004px;
+  padding-bottom: 9.6px;
+}
+#frontSpace {
+  padding-left: 20px;
+}
+#footerBottomContainerLastText {
+  padding-left: 300px;
+}
