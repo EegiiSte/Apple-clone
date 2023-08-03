@@ -1,5 +1,86 @@
 @media only screen and (max-width: 600px) {
   body {
     background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #navbarContainer {
+    display: flex;
+    width: 100vw;
+    height: 48px;
+  }
+
+  .icon {
+    display: flex;
+  }
+  .navMenuText {
+    display: none;
+  }
+  #navbar {
+    width: 100vw;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* section */
+  #sectionBanner {
+    display: none;
+  }
+  .sectionFourthBoxes {
+    /* width: 49vw; */
+    /* margin: 12px; */
+    padding-top: 48px;
+    width: 100vw;
+    height: 500px;
+    /* border: 1px solid blue; */
+  }
+
+  /* footer */
+  footer {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(245, 245, 247);
+    /* margin-top: 44px; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+  }
+
+  #footerContainer {
+    height: 100vh;
+    width: 100vw;
+    /* border: 1px solid rgb(235, 4, 205); */
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+  }
+  #footerTopContainer {
+    height: 100vh;
+    width: 100vw;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 17px;
+    padding-bottom: 11px;
+  }
+
+  #frontSpace {
+    padding-left: 0px;
+  }
+  /* Footer Bottom */
+  #footerBottomContainer {
+    height: 100vh;
+    width: 100vw;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 34px;
+    padding-bottom: 21px;
+  }
+  #footerBottomContainerLastText {
+    padding-left: 0px;
   }
 }

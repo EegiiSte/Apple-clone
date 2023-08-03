@@ -18,6 +18,13 @@
   font-weight: 600;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 } */
+
+#header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
 #navbarContainer {
   display: flex;
   justify-content: center;
@@ -100,17 +107,67 @@
   font-size: 26px;
   color: rgb(29, 29, 31);
 }
+/* sections */
 
-/* first section */
-#sectionFirst {
+.sections {
   width: 100vw;
   height: 580px;
   display: absolute;
   font-weight: 400;
   background-size: cover;
   background-position: center;
+}
+.sectionContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 47px;
+}
+.sectionContainerTitle {
+  padding-top: 55px;
+}
+
+.sectionContainerTitleName {
+  height: 60px;
+  font-size: 56px;
+  color: rgb(245, 245, 247);
+}
+.sectionContainerTitleText {
+  height: 31px;
+  margin-top: 6px;
+  font-size: 26px;
+  color: rgb(245, 245, 247);
+}
+.LinkContainer {
+  height: 31px;
+  font-size: 21px;
+  margin-top: 11px;
+  color: blue;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.LinkBuy {
+  padding-left: 28px;
+}
+
+/* section Mac Book Air 15 */
+#sectionMacBookAir15 {
   background-image: url(https://www.apple.com/v/home/bc/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large_2x.jpg);
 }
+/* section  iPhone 14 */
+#sectionIphone14Pro {
+  background-image: url(https://www.apple.com/v/home/bc/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large_2x.jpg);
+}
+/*  section iPhone 14 */
+#sectionIphone14 {
+  background-image: url(https://www.apple.com/v/home/bc/images/heroes/iphone-14/hero_iphone14_yellow__eun20sn4imi6_large_2x.jpg);
+}
+
+/* first */
 #sectionFirstContainer {
   width: 100vw;
   display: flex;
@@ -120,8 +177,7 @@
   text-align: center;
   margin-top: 47px;
 }
-#sectionFirstContainerTitle {
-}
+
 #sectionFirstContainerTitleName {
   height: 60px;
   font-size: 56px;
@@ -146,17 +202,7 @@
   padding-left: 28px;
 }
 
-/* Second section */
-#sectionSecond {
-  width: 100vw;
-  height: 580px;
-  display: absolute;
-  font-weight: 400;
-  margin-top: 18px;
-  background-size: cover;
-  background-position: center;
-  background-image: url(https://www.apple.com/v/home/bc/images/heroes/iphone-14/hero_iphone14_yellow__eun20sn4imi6_large_2x.jpg);
-}
+/* second */
 
 #sectionSecondContainer {
   width: 100vw;
@@ -247,21 +293,15 @@ video {
   font-size: 19.89px;
 }
 
-#videoTextNews {
-}
-#videoText {
-}
-
 /* Fourth Section */
 
 #sectionFourth {
   width: 100vw;
   height: 1776px;
-  /* display: flex; */
+
   display: absolute;
   text-align: center;
   justify-content: space-between;
-  /* border: 1px solid red; */
 }
 
 #sectionFourthContainer {
@@ -270,11 +310,9 @@ video {
 }
 
 .sectionFourthBoxes {
-  /* width: 49vw; */
   margin: 12px;
-  width: 694px;
+  width: 660px;
   height: 580px;
-  /* border: 1px solid blue; */
 }
 /* Fourth Section - Macbook */
 #sectionFourthMacbook {
@@ -312,12 +350,6 @@ video {
   margin-left: 28px;
 }
 
-.sectionFourthContainers {
-  /* display: absolute;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center; */
-}
 /* Fourth Section - Vision Pro */
 #sectionFourthVisionPro {
   background-size: cover;

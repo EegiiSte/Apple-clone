@@ -12,13 +12,15 @@
       href="https://v1.fontapi.ir/css/SFProDisplay:400;500;600"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./mobileStyle.css" />
+    <link rel="stylesheet" href="./TabletStyle.css" />
   </head>
   <body>
     <header>
       <!-- navbar -->
       <div id="navbarContainer">
         <div id="navbar">
-          <span class="icon">
+          <span class="icon" id="iconApp">
             <svg
               height="44"
               viewBox="0 0 14 44"
@@ -103,30 +105,45 @@
           loop
         ></video>
       </section>
-      <!-- first section -->
-      <section id="sectionFirst">
-        <div id="sectionFirstContainer">
-          <div id="sectionFirstContainerTitle">
-            <h2 id="sectionFirstContainerTitleName">iPhone 14 Pro</h2>
-            <h3 id="sectionFirstContainerTitleText">Pro. Beyond.</h3>
+      <!-- section Macbook Air 15  -->
+      <section class="sections" id="sectionMacBookAir15">
+        <div class="sectionContainer">
+          <div class="sectionContainerTitle">
+            <h2 class="sectionContainerTitleName">MacBook Air 15"</h2>
+            <h3 class="sectionContainerTitleText">
+              Impressively big. Impossibly thin.
+            </h3>
           </div>
-          <div id="LinkContainer">
+          <div class="LinkContainer">
             <span>Learn More</span>
-            <span id="LinkBuy">Buy</span>
+            <span class="LinkBuy">Buy</span>
+          </div>
+        </div>
+      </section>
+      <!-- section iPhone 14 Pro  -->
+      <section class="sections" id="sectionIphone14Pro">
+        <div class="sectionContainer">
+          <div class="sectionContainerTitle">
+            <h2 class="sectionContainerTitleName">iPhone 14 Pro</h2>
+            <h3 class="sectionContainerTitleText">Pro. Beyond.</h3>
+          </div>
+          <div class="LinkContainer">
+            <span>Learn More</span>
+            <span class="LinkBuy">Buy</span>
           </div>
         </div>
       </section>
 
-      <!-- second section -->
-      <section id="sectionSecond">
-        <div id="sectionSecondContainer">
-          <div id="sectionSecondContainerTitle">
-            <h2 id="sectionSecondContainerTitleName">iPhone 14</h2>
-            <h3 id="sectionSecondContainerTitleText">Wonderfull.</h3>
+      <!-- section iPhone 14 -->
+      <section class="sections" id="sectionIphone14">
+        <div class="sectionContainer">
+          <div class="sectionContainerTitle">
+            <h2 class="sectionContainerTitleName">iPhone 14</h2>
+            <h3 class="sectionContainerTitleText">Wonderfull.</h3>
           </div>
-          <div id="LinkContainer">
+          <div class="LinkContainer">
             <span>Learn More</span>
-            <span id="LinkBuy">Buy</span>
+            <span class="LinkBuy">Buy</span>
           </div>
         </div>
       </section>
@@ -156,7 +173,7 @@
         </div>
       </section> -->
       <!-- fourth section -->
-      <section id="sectionFourth">
+      <section class="sections" id="sectionFourth">
         <div id="sectionFourthContainer">
           <div class="sectionFourthBoxes" id="sectionFourthMacbook">
             <h2 id="sectionFourthHeadLine">MacBook Air 15"</h2>
@@ -271,7 +288,8 @@
         </div>
       </section>
     </main>
-    <footer>
+
+    <footer class="sections">
       <div id="footerContainer">
         <div id="footerTopContainer">
           <span class="footerTopContainerTexts"
